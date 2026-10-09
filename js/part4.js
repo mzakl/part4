@@ -29,4 +29,10 @@ const movies = [
   new Movie(6, 'Troy', 2004, 7.3),
 ];
 
-console.log(movies);
+// console.log(movies);
+
+//Sort the movies array in ascending order
+const sortedMoviesA = movies.sort(function (a, b) {
+  return a.id - b.id;
+});
+console.log(sortedMoviesA);
